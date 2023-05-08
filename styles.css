@@ -1,9 +1,12 @@
 h2{
     color: hsl(5,100, 59);
     font-size: 30px;
+    font-weight: bold;  /* font: normal 30pc,arial*/
+    
 }
 
 .animals{
+    font-style: italic;
     
     color: rgb(146, 31, 31);  /**opaque color: #00000000-fully transpaent #00000000-fully opaque ; */
 }
@@ -25,13 +28,23 @@ h2{
 .table{
     
         color:rgb(18, 141, 69);
-        font-family:Verdana, Geneva, Tahoma, sans-serif
         
-    
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        border : 5px red solid;
+        border-width: 10px;
+        border-style: dashed;
 }
 p{
     color: rgba(179, 44, 67,.5);
+    line-height: 1.6em;
+    width:80%; /*changes according to website movement */
+    margin:auto; 
+    padding: 5%;
+    letter-spacing: 0.1em;
+    font-size: medium;
+     word-spacing: 20px;
 }
+
 
 .box{
     height: 100px;
@@ -42,6 +55,32 @@ p{
     background-color: blueviolet;
 }
 
+.para1
+{   
+    padding: 25px;
+    margin:50px;
+    background-color: beige;
+    
+}
+
+.paras
+{
+    padding:15px;
+    margin:25px;
+    background-color: antiquewhite;
+}
+
+.links
+{   
+    margin:50px;
+    padding:20px;
+    text-decoration: underline;
+    color:white;
+    background-color: blanchedalmond;
+}
+
 *{
     background-color: black;
+    margin: 5px;
+    padding: 2px;
 }
