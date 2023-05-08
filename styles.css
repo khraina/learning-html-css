@@ -1,0 +1,47 @@
+h2{
+    color: hsl(5,100, 59);
+    font-size: 30px;
+}
+
+.animals{
+    
+    color: rgb(146, 31, 31);  /**opaque color: #00000000-fully transpaent #00000000-fully opaque ; */
+}
+
+.animallist{
+    color:blue;
+}
+
+.rno{
+    color:rgb(196, 29, 173)
+}
+
+.olo{
+    color:aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+}
+
+.table{
+    
+        color:rgb(18, 141, 69);
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+        
+    
+}
+p{
+    color: rgba(179, 44, 67,.5);
+}
+
+.box{
+    height: 100px;
+    width: 50px;
+    padding: 25px;
+    margin:50px;
+    border: 10px solid rgb(8, 6, 34);
+    background-color: blueviolet;
+}
+
+*{
+    background-color: black;
+}
